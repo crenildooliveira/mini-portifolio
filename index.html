@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Fonte Link google VT323-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+        <!--Caminho que linka o reset css-->
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/estilos.css">
+
+        <!--Titulo que fica no topo da aba-->
+        <title>Portifolio Crenildo Oliveira</title>
+    </head>
+<!--body = linha vermelha-->
+<body>
+    <!--main = linha azul-->
+    <main class="cartao">
+        <!--div = linha verde-->
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1>Crenildo Oliveira</h1>
+            <h2>Desenvolvedor Frontend Júnior</h2>
+
+        </div>
+
+        <!--div = linha laranja-->
+        <div class="conteudo">
+            <!--div = linha azul-->
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="src/imagens/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="src/imagens/coracao.gif" alt="ícone de redes sociais">
+                </li>
+
+            </ul>
+            <!--div = linha amarela-->
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá meu nome é Crenildo Fonseca De Oliveira, seja bem-vindo(a)!</p>
+
+                        <p>
+                            Sempre fui atraido pela area de tecnologia, agora com 25 anos estou entrando nesse ramo e atualmente estou estudando <span>HTML, CSS3 e JavaScript.</span>
+                            Meus principais hobbies são jogos eletronicos e assistir animes, sempre tive curiosidade de entender como eram feitos os jogos, aplicativos e sites que tanto uso, hoje entendo que por tras de uma arte existe um longo e arduo trabalho... que claro, no fim é recompensador.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://crenildooliveira.github.io/cv/" target="_blank" class="curriculo">Curriculo</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/crenildo-oliveira-a7aa12206/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/crenildooliveira" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
